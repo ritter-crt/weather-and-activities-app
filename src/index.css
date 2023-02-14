@@ -1,16 +1,23 @@
 :root {
 
---greenblue:#689fa1;
+/* --greenblue:#689fa1;
 --greenlight:	#3b8e93;
 --green:	#18676b;
 --rose:#a25678;
 --pink:#e9ced6;
+--darkblue: #434d67; */
+
+--greenblue:#E3F4FE;
+--greenlight:	#19C3FB;
+--green:	#1D71F2;
+--rose:#ffcd00;
+--pink:#E3F4FE;;
 --darkblue: #434d67;
 
 --blue: #1d71f2;
 --lighter-blue: #1c9cf6;
 --light-blue:#e1f3fe;
---light-yellow:rgb(252, 228, 204);
+--light-yellow:#ffcd00;
 --yellow:#ffcd00;
 }
 

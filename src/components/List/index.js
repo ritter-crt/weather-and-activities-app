@@ -12,7 +12,7 @@ export default function List({ activity, weather, onDeleteActivity }) {
           {" "}
           {isGoodWeather
             ? "Go outside and enjoy the weather!"
-            : "Bad weather, stay in your basement!"}
+            : "Bad weather, stay in your basement and code!"}
         </h2>
         {activity
           .filter((activity) => activity.isForGoodWeather === isGoodWeather)
