@@ -14,7 +14,7 @@
   background-color: var(--green);
   color: white;
   border-radius: 20px;
-  width: 50%;
+  width: 100%;
   padding: 0.5rem;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -40,5 +40,6 @@
   background: none;
   color: white;
   transform: rotate(180deg);
+  transition-duration: 3s;
 }
 
