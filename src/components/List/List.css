@@ -8,6 +8,11 @@
   padding-right: 50px;
 }
 
+.list__header{
+  font-size: 1.1rem;
+  text-align: center;
+  color:var(--darkblue);
+}
 .list__item {
   display: flex;
   align-items: center;
@@ -21,12 +26,13 @@
   line-height: 1;
   gap: 0.8rem;
   justify-content: space-between;
-  
+  box-shadow: rgba(0, 0, 0, 0.15) 2px 3px 3px;
 }
 .list__item-activity {
   border: none;
   padding: 0.7rem;
   place-items: center;
+  
 }
 
 .list__item:hover {

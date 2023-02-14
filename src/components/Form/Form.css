@@ -1,8 +1,48 @@
-form {
-    padding: 10%; 
-    gap:2rem;
-    display: flex; 
-    flex-direction: column;
-  
+.form__activity {
+  padding: 10%;
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
 }
 
+.form__heading {
+  font-size: 2rem;
+  text-align: center;
+  color: var(--darkblue);
+}
+
+.form__button-submit {
+    position: static;
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2px 3px 3px;
+    background-color: var(--green);
+    color: white;
+    padding: 1rem;
+    font-size: 1rem;
+}
+.form__button-submit:hover{
+    background-color: var(--greenlight);
+    color: var(--pink);
+}
+
+
+.form__goodweather{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.form__name{
+    color: var(--darkblue);
+    font-size: 1.2rem;
+}
+
+.form__input{
+    height: 50px;
+    border-radius: 10px;
+    border: solid var(--green);
+    padding-left: 1rem;
+    background-color: white;
+}

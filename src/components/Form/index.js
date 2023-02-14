@@ -28,11 +28,13 @@ export default function Form ({onAddActivity, activity}) {
     return (
         <form className="form__activity" onSubmit={handleSubmit}>
             <h1 className="form__heading">Add new Activity</h1>
-            <label htmlFor="activity">Name</label>
+            <label htmlFor="activity" className="form__name">Name</label>
             <input className="form__input" id="activity" name="formInput" placeholder= "My activity for today" required></input>
-            <label htmlFor="checkbox">Good-weather activity</label>
-            <input type="checkbox" className="checkbox" name="checkbox"></input>
-            <button>Submit</button>
+            <div className="form__goodweather">
+            <label htmlFor="checkbox" className="form__name">Good-weather activity</label>
+            <input type="checkbox" className="checkbox" id="checkbox"name="checkbox"></input>
+            </div>
+            <button className="form__button-submit">Submit</button>
         </form>
         
 
