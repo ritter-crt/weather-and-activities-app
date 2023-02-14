@@ -1,6 +1,7 @@
 import "./App.css";
 import Form from "./components/Form";
 import List from "./components/List";
+import Header from "./components/Header";
 import { useLocalStorage } from "@rehooks/local-storage";
 import { useState, useEffect } from "react";
 
@@ -18,10 +19,6 @@ function App() {
   // console.log(activities.id)
 
   const [weather, setWeather] = useState("");
-
-  setInterval(() => {
-    clearInterval();
-  }, 5000);
 
   useEffect(() => {
     loadWeather();
@@ -46,11 +43,7 @@ function App() {
 
   return (
     <div className="">
-      <header className="weather">
-        <div>{weather.location}</div>
-        <div>{weather.temperature}°</div>
-        <div>{weather.condition}</div>
-      </header>
+     <Header weather={weather}/>
       <List
         activity={activities}
         weather={weather}

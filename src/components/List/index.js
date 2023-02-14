@@ -17,13 +17,13 @@ export default function List({ activity, weather, onDeleteActivity }) {
         {activity
           .filter((activity) => activity.isForGoodWeather === isGoodWeather)
           .map((filteredActivities) => (
-            <div>
+            <div className="list__item"key={filteredActivities.id}>
               {" "}
-              <div className="list--item" key={filteredActivities.id}>
+              <div className="list__item-activity">
                 {filteredActivities.name}
               </div>
               <button
-                className=""
+                className="list__item-activity--delete"
                 type="button"
                 onClick={() => onDeleteActivity?.(filteredActivities.id)}
               >x</button>
