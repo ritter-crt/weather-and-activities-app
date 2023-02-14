@@ -1,0 +1,14 @@
+.header__weather {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    top: 50px;
+    margin: 25px;
+    padding: 5px;
+    size: large;
+    font-size: 60px;
+    border-radius:  25px;
+    color: var(--green);
+    border: solid var(--green);
+    border-width: 0.3rem;
+   }

@@ -11,7 +11,7 @@ export default function List({ activity, weather, onDeleteActivity }) {
         <h2 className="list__header">
           {" "}
           {isGoodWeather
-            ? "Go outside and enjoy the good weather!"
+            ? "Go outside and enjoy the weather!"
             : "Bad weather, stay in your basement!"}
         </h2>
         {activity
