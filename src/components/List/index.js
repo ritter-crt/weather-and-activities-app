@@ -1,5 +1,5 @@
 import "./List.css";
-
+// import Delete from "./Form/assets/Delete.png"
 export default function List({ activity, weather, onDeleteActivity }) {
   const isGoodWeather = weather.isGoodWeather;
   console.log(weather);
@@ -7,8 +7,8 @@ export default function List({ activity, weather, onDeleteActivity }) {
 
   return (
     <>
-      <div className="list">
-        <h2>
+      <ul className="list">
+        <h2 className="list__header">
           {" "}
           {isGoodWeather
             ? "Go outside and enjoy the good weather!"
@@ -29,7 +29,7 @@ export default function List({ activity, weather, onDeleteActivity }) {
               >x</button>
             </div>
           ))}
-      </div>
+      </ul>
     </>
   );
 }
