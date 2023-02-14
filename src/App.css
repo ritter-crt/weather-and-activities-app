@@ -13,3 +13,17 @@
     transform: rotate(360deg);
   }
 } */
+
+.weather {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  top: 50px;
+  margin-top: 10px;
+  padding: 5px;
+  size: large;
+  text-size-adjust: larger;
+  font-size: xx-large;
+ }
+
+ 
