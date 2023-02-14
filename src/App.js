@@ -1,18 +1,17 @@
 import "./App.css";
 import Form from "./components/Form";
 import List from "./components/List";
-import { useState } from "react";
 import { useLocalStorage } from '@rehooks/local-storage';
 
 function App() {
-  const [activity, setActivity] = useLocalStorage("activityList", " " );
+  const [activity, setActivity] = useLocalStorage("activityList", [] );
   // const [activityList, setNewActivities] = useLocalStorage("activityList", {defaultValue: []})
 
-  const handleAddActivity= (activity) =>{
-    setActivity({...activity, activity})
+  const handleAddActivity= (activityObject) =>{
+    setActivity([...activity,activityObject])
   }
   
-console.log(activity)
+// console.log(activity)
 
   return (
     <div className="">
