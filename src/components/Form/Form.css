@@ -5,7 +5,7 @@
   flex-direction: column;
   border: 3rem;
   box-shadow: rgba(0, 0, 0, 0.15) 2px 3px 3px;
-  border: solid var(--green);
+  border: solid 0.2rem var(--green);
   margin:10%;
   border-radius: 30px;
 }
@@ -42,22 +42,34 @@
 
 .form__name{
     color: var(--darkblue);
-    font-size: 1rem;
+    font-size: 0.95rem;
+    font-weight: bold;
 }
 
 .form__input{
     height: 50px;
     border-radius: 10px;
-    border: solid var(--green);
+    border: solid 0.15rem var(--green);
     padding-left: 1rem;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.53);
+    font-size: 1rem;
 }
+input:focus { 
+    outline: none;
+    border-color: var(--green);
+    box-shadow: 0 0 5px var(--green);
+ }
 
 .form__checkbox{
     width: 20px; 
     height: 20px;
     border-radius: 10rem;
-    border: solid var(--green);
     padding: 30px;
+    background-color: rgb(255, 255, 255);
+    accent-color: var(--green)
+}
 
+.form__checkbox:checked {
+    border-color: red;
+    background-color:red;
 }

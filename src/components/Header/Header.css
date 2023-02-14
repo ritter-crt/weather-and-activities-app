@@ -10,5 +10,7 @@
     border-radius:  25px;
     color: var(--green);
     border: solid var(--green);
-    border-width: 0.3rem;
-   }
+    border-width: 0.4rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 3px 5px 3px;
+    background-color: var(--greenblueo) ;
+   } 
