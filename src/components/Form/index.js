@@ -1,5 +1,4 @@
 import "./Form.css"
-import { useState } from "react";
 import { uid } from "uid";
 
 export default function Form ({onAddActivity, activity}) {
@@ -10,8 +9,8 @@ export default function Form ({onAddActivity, activity}) {
         const form = event.target; 
         const formInput = form.elements.formInput.value;
         const checkbox = form.elements.checkbox.checked;
-        console.log(formInput)
-        console.log(checkbox)
+        // console.log(formInput)
+        // console.log(checkbox)
     
         const newActivity = {
             name:formInput, 
