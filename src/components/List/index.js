@@ -2,8 +2,8 @@ import "./List.css";
 // import Delete from "./Form/assets/Delete.png"
 export default function List({ activity, weather, onDeleteActivity }) {
   const isGoodWeather = weather.isGoodWeather;
-  console.log(weather);
-  console.log(isGoodWeather);
+  // console.log(weather);
+  // console.log(isGoodWeather);
 
   return (
     <>
@@ -12,7 +12,7 @@ export default function List({ activity, weather, onDeleteActivity }) {
           {" "}
           {isGoodWeather
             ? "Go outside and enjoy the weather!"
-            : "Bad weather, stay in your basement and code!"}
+            : "Bad weather, stay in your basement!"}
         </h2>
         {activity
           .filter((activity) => activity.isForGoodWeather === isGoodWeather)
@@ -26,7 +26,7 @@ export default function List({ activity, weather, onDeleteActivity }) {
                 className="list__item-activity--delete"
                 type="button"
                 onClick={() => onDeleteActivity?.(filteredActivities.id)}
-              >x</button>
+              >✖️</button>
             </div>
           ))}
       </ul>

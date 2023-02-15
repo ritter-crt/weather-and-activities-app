@@ -24,29 +24,32 @@
   padding-left: 1rem;
   padding-right: 1.5rem;
   line-height: 1.5;
+  font-size: 1.2rem;
   justify-content: space-between;
   box-shadow: rgba(0, 0, 0, 0.15) 2px 3px 3px;
-  text-align: center;
+  
 }
 
 .list__item-activity {
   border: none;
-  padding: 0.7rem;
+  padding: 0.6rem;
   place-items: center;
   justify-content: space-between;
   gap:0.5rem;
 }
 
-.list__item:hover {
+.list__item:active {
   background-color: var(--greenlight);
   color: var(--pink);
+  
 }
 
 .list__item-activity--delete{
   border: none;
   font-size: 1.5rem;
   background: none;
-  color: white;
+  filter: brightness(0) invert(1)
+  
 }
 .delete{
   -moz-transition: all .5s linear;

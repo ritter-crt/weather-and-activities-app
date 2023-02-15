@@ -19,14 +19,17 @@
 .form__button-submit {
     position: static;
     border: none;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.15) 2px 3px 3px;
     background-color: var(--green);
     color: white;
-    padding: 1rem;
-    font-size: 1rem;
+    padding: 0.9rem;
+    font-size: 1.2rem;
+    position:relative;
+    justify-content: center
 }
-.form__button-submit:hover{
+
+.form__button-submit:active{
     background-color: var(--greenlight);
     color: var(--pink);
 }
@@ -67,9 +70,4 @@ input:focus {
     padding: 30px;
     background-color: rgb(255, 255, 255);
     accent-color: var(--green)
-}
-
-.form__checkbox:checked {
-    border-color: red;
-    background-color:red;
 }
