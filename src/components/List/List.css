@@ -8,15 +8,15 @@
   padding-right: 50px;
 }
 
-.list__header{
-  font-size: 1.4rem;
+.list__header {
+  font-size: 1.3rem;
   text-align: center;
-  color:var(--darkblue);
+  color: var(--dark);
 }
 .list__item {
   display: flex;
   align-items: center;
-  background-color: var(--green);
+  background-color: var(--secondary);
   color: white;
   border-radius: 20px;
   width: 100%;
@@ -27,7 +27,6 @@
   font-size: 1.2rem;
   justify-content: space-between;
   box-shadow: rgba(0, 0, 0, 0.15) 2px 3px 3px;
-  
 }
 
 .list__item-activity {
@@ -35,25 +34,22 @@
   padding: 0.6rem;
   place-items: center;
   justify-content: space-between;
-  gap:0.5rem;
+  gap: 0.5rem;
 }
 
 .list__item:active {
-  background-color: var(--greenlight);
-  color: var(--pink);
-  
+  background-color: var(--light);
+  color: var(--background);
 }
 
-.list__item-activity--delete{
+.list__item-activity--delete {
   border: none;
   font-size: 1.5rem;
   background: none;
-  filter: brightness(0) invert(1)
-  
+  filter: brightness(0) invert(1);
 }
-.delete{
-  -moz-transition: all .5s linear;
-    -webkit-transition: all .5s linear;
-    transition: all .5s linear;
-
+.delete {
+  -moz-transition: all 0.5s linear;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
 }

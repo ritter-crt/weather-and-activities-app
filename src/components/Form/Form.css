@@ -5,69 +5,64 @@
   flex-direction: column;
   border: 3rem;
   box-shadow: rgba(0, 0, 0, 0.15) 2px 3px 3px;
-  border: solid 0.2rem var(--green);
-  margin:10%;
+  border: solid 0.2rem var(--primary);
+  margin: 10%;
   border-radius: 30px;
 }
 
-.form__heading {
-  font-size: 1.4rem;
-  text-align: center;
-  color: var(--darkblue);
-}
-
 .form__button-submit {
-    position: static;
-    border: none;
-    border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.15) 2px 3px 3px;
-    background-color: var(--green);
-    color: white;
-    padding: 0.9rem;
-    font-size: 1.2rem;
-    position:relative;
-    justify-content: center
+  position: static;
+  border: none;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 2px 3px 3px;
+  background-color: var(--primary);
+  color: white;
+  padding: 0.9rem;
+  font-size: 1rem;
+  position: relative;
+  justify-content: center;
 }
 
-.form__button-submit:active{
-    background-color: var(--greenlight);
-    color: var(--pink);
+.form__button-submit:focus {
+  background-color: var(--secondary);
+  color: var(--background);
 }
 
-
-.form__goodweather{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-right: 30px;
-    align-items: center;
+.form__goodweather {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.form__name{
-    color: var(--darkblue);
-    font-size: 0.95rem;
-    font-weight: bold;
+.form__name {
+  color: var(--dark);
+  font-size: 1.3rem;
+  text-align: center;
+  font-weight: bold;
 }
 
-.form__input{
-    height: 50px;
-    border-radius: 10px;
-    border: solid 0.15rem var(--green);
-    padding-left: 1rem;
-    background-color: rgba(255, 255, 255, 0.53);
-    font-size: 1rem;
+.form__label {
+  color: var(--dark);
 }
-input:focus { 
-    outline: none;
-    border-color: var(--green);
-    box-shadow: 0 0 5px var(--green);
- }
 
-.form__checkbox{
-    width: 20px; 
-    height: 20px;
-    border-radius: 10rem;
-    padding: 30px;
-    background-color: rgb(255, 255, 255);
-    accent-color: var(--green)
+.form__input {
+  height: 50px;
+  border-radius: 10px;
+  border: solid 0.15rem var(--primary);
+  padding-left: 1rem;
+  background-color: var(--background);
+  font-size: 1rem;
+}
+input:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 5px var(--primary);
+}
+
+.form__checkbox {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(255, 255, 255);
+  accent-color: var(--primary);
 }

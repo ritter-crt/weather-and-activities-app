@@ -1,20 +1,10 @@
 :root {
-
-/* --greenblue:#689fa1;
---greenblueo:#689fa181;
---greenlight:	#3b8e93;
---green:	#18676b;
---rose:#a25678;
---pink:#e9ced6;
---darkblue: #415D66; */
-
---greenblue:#E3F4FE;
---greenblueo:#e3f4fecb;
---greenlight:	#3bc6f4;
---green:	#1D71F2;
---rose:#ffcd00;
---pink:whitesmoke;
---darkblue: #11284b;
+  --primary: #1d71f2;
+  --secondary: #3bc6f4;
+  --light: #e3f4fe;
+  --backgroundlight: #e3f4fe6f;
+  --dark: #11284b;
+  --background: whitesmoke;
 }
 
 * {
@@ -23,6 +13,5 @@
 }
 
 body {
-  background-color: var(--pink);
+  background-color: var(--background);
 }
-
