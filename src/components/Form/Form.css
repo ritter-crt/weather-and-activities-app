@@ -1,24 +1,23 @@
 .form__activity {
-  padding: 10%;
+  padding: 15% 7%;
   gap: 2rem;
   display: flex;
   flex-direction: column;
   border: 3rem;
   box-shadow: rgba(0, 0, 0, 0.15) 2px 3px 3px;
-  border: solid 0.2rem var(--primary);
+  border: solid 0.3rem var(--primary);
   margin: 10%;
   border-radius: 30px;
 }
 
 .form__button-submit {
-  position: static;
   border: none;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.15) 2px 3px 3px;
-  background-color: var(--primary);
+  background-color: var(--secondary);
   color: white;
   padding: 0.9rem;
-  font-size: 1rem;
+  font-size: 1.1rem;
   position: relative;
   justify-content: center;
 }
@@ -36,14 +35,14 @@
 }
 
 .form__name {
-  color: var(--dark);
+  color: var(--primary);
   font-size: 1.3rem;
   text-align: center;
   font-weight: bold;
 }
 
 .form__label {
-  color: var(--dark);
+  color: var(--primary);
 }
 
 .form__input {
@@ -52,7 +51,8 @@
   border: solid 0.15rem var(--primary);
   padding-left: 1rem;
   background-color: var(--background);
-  font-size: 1rem;
+  color: var(--primary);
+  font-weight: 1rem;
 }
 input:focus {
   outline: none;

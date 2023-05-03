@@ -8,7 +8,6 @@ export default function List({ activity, weather, onDeleteActivity }) {
     <>
       <ul className="list">
         <h2 className="list__header">
-          {' '}
           {isGoodWeather
             ? 'Enjoy the good weather!'
             : 'Bad weather, stay cozy!'}

@@ -2,15 +2,14 @@
   display: flex;
   justify-content: space-evenly;
   gap: 10px;
-  top: 50px;
-  margin: 25px;
+  margin: 20px;
   padding: 5px;
   size: large;
   font-size: 60px;
   border-radius: 25px;
   color: var(--primary);
   border: solid var(--primary);
-  border-width: 0.4rem;
+  border-width: 0.3rem;
   box-shadow: rgba(0, 0, 0, 0.15) 3px 5px 3px;
   background-color: var(--light);
 }
