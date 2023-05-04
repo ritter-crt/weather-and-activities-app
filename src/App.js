@@ -7,7 +7,7 @@ import Header from './components/Header';
 
 function App() {
   const [activities, setActivities] = useLocalStorage('activityList', []);
-  // console.log(activities);
+
   const handleAddActivity = (activityObject) => {
     setActivities([...activities, activityObject]);
   };
