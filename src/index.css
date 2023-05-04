@@ -4,7 +4,7 @@
   --light: #e3f4fe;
   --backgroundlight: #e3f4fe6f;
   --dark: #11284b;
-  --background: whitesmoke;
+  --background: rgb(240, 248, 249);
 }
 
 * {

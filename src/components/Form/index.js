@@ -11,7 +11,6 @@ export default function Form({ onAddActivity }) {
     const checkbox = form.elements.checkbox.checked;
     // console.log(formInput)
     // console.log(checkbox)
-
     const newActivity = {
       name: formInput,
       isForGoodWeather: checkbox,
